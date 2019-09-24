@@ -31,6 +31,11 @@ const NavBar = () => {
           }
         }
       }
+     navLogoArea: contentfulNavbarLogo {
+        id
+        firstName
+        lastName
+      }
     }
   `)
 
@@ -47,7 +52,7 @@ const NavBar = () => {
                   : "navbar-company-name-black"
               }
             >
-              Jaana <br /> Aalto-Setälä
+              {getNavBar.navLogoArea.firstName}  {getNavBar.navLogoArea.lastName}
             </p>
             <ul className="navbar-nav-custom">
               {getNavBar.navLinks.edges.map(({ node: item }) => {

@@ -2,7 +2,7 @@
   width: 60%;
   height: 100%;
   padding: 3rem;
-  background-color: #fcf1ca;
+  background: linear-gradient(89deg, #aaaaaa0c 0%, #aaaaaa 100%)
 }
 
 .mobile-form-section {
@@ -27,14 +27,15 @@ textarea {
 }
 
 .submit-button {
-  color: white;
-  background-color: var(--mainGreen);
+  color: black;
+  background-color: white;
   cursor: pointer;
   font-weight: bold;
 }
 
 .submit-button:hover {
-  background-color: var(--footerGreen);
+  background-color: black;
+  color: white;
 }
 
 .form-image {

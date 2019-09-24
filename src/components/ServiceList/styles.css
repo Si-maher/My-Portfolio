@@ -19,7 +19,7 @@
 }
 
 .gold-text {
-  color: var(--mainGold);
+  background: linear-gradient(89deg, #aaaaaa0c 0%, #aaaaaa 100%);
 }
 
 .normal-text {
@@ -30,7 +30,7 @@
 }
 
 .gold-text {
-  color: var(--mainGold);
+  background: linear-gradient(89deg, #aaaaaa0c 0%, #aaaaaa 100%);
 }
 
 /*-------------------------MEDIA QUERIES-----------------------*/
