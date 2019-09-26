@@ -7,7 +7,7 @@ import { Link } from "gatsby"
 
 const BlogList = ({ posts }) => {
   return (
-    <section id="blog" className={blogListStyles.sectionBlog}>
+    <section id="projects" className={blogListStyles.sectionBlog}>
       <div className="container">
         <Title2 text="My Latest Blog posts" styleClass="title-h2-dark" />
 
@@ -20,7 +20,7 @@ const BlogList = ({ posts }) => {
         </article>
 
         <div style={{ height: "100%", textAlign: "center" }}>
-          <Link to="/en/blog">
+          <Link to="/en/projects">
             <Button text="view all posts" styleClass="btn-secondary" />
           </Link>
         </div>

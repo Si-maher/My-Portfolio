@@ -19,7 +19,7 @@
 }
 
 .gold-text {
-  background: linear-gradient(89deg, #aaaaaa0c 0%, #aaaaaa 100%);
+  color   : var(--mainGold)
 }
 
 .normal-text {
@@ -29,9 +29,9 @@
   padding: 0 0 60px 0;
 }
 
-.gold-text {
+/* .gold-text {
   background: linear-gradient(89deg, #aaaaaa0c 0%, #aaaaaa 100%);
-}
+} */
 
 /*-------------------------MEDIA QUERIES-----------------------*/
 

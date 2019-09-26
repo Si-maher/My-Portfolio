@@ -21,7 +21,8 @@
 }
 
 .btn-secondary {
-  color: var(--mainBlack);
+  background: black;
+  color: white;
 }
 
 .btn-tertiary {

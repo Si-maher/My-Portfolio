@@ -16,7 +16,7 @@
 }
 
 .navbar-logo {
-  width: 120px;
+  z-index: 10000;
   margin: 20px 25px 20px 30px;
 }
 

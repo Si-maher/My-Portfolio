@@ -15,8 +15,7 @@ const ServiceList = () => {
           <section className="section service-section" id="services">
             <div className="container">
               <p className="normal-text">
-                I provide <span className="gold-text">high quality</span> Event
-                Management, Leadership Development and Project Management.
+                I provide <span className="gold-text">high quality</span> Front-end solutions to improve and enhance user experience.
               </p>
               <div className="services-wrapper">
                 {services.edges.map(({ node: service }) => {
