@@ -38,7 +38,7 @@ const Form = () => {
                       {contact.phoneNumber}
                     </p>
                   </div>
-                  <form className="form-fields" action="https://formspree.io/hari.basnet@integrify.io" method="POST">
+                  <form className="form-fields" action="https://formspree.io/simonmaher8307@gmail.com" method="POST">
                     <input type="text" name="name" placeholder="Name" required />
                     <input type="email" name="_replyto" placeholder="Email" required />
                     <input type="text" name="subject" placeholder="Subject" required />
