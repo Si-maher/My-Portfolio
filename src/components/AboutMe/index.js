@@ -1,8 +1,8 @@
 import React from "react"
 import Button from "../Button"
 import { Link } from "gatsby"
+import BackgroundImage from "gatsby-background-image"
 import "./styles.css"
-
 const AboutMe = ({ image, text, title1, title2, title3 }) => {
   const imgStyles = { backgroundImage: `url(${image})` }
   return (
@@ -21,11 +21,11 @@ const AboutMe = ({ image, text, title1, title2, title3 }) => {
               </Link>
             </div>
           </div>
-          <div style={imgStyles} className="about_me_image"></div>
+          <BackgroundImage className="about_me_image" fluid={image} />
+          {/* <div style={imgStyles} className="about_me_image"></div> */}
         </div>
       </div>
     </section>
   )
 }
-
 export default AboutMe

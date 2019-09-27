@@ -1,6 +1,6 @@
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import ServiceList from "../components/ServiceList"
+
 import Form from "../components/Form"
 // import HeroVideo from "../components/HeroVideo"
 import HeroImage from "../components/Header/HeroImage"
@@ -19,13 +19,13 @@ const IndexPage = ({ data }) => {
       {/* <HeroVideo /> */}
       <HeroImage/>
       <AboutMe
-        image={aboutme.image.fixed.src}
+        image={aboutme.image.fluid}
         text={aboutme.description.description}
         title1={aboutme.title1}
         title2={aboutme.title2}
         title3={aboutme.title3}
       />
-      <ServiceList />
+      {/* <ServiceList /> */}
       <ProjectList/>
       <Testimonials />
       <BlogList posts={blogpost.edges} />
@@ -44,11 +44,10 @@ export const query = graphql`
         description
       }
       image {
-        fixed(quality: 100) {
+        fluid(quality: 100) {
           base64
           aspectRatio
-          width
-          height
+         
           src
           srcSet
           srcWebp

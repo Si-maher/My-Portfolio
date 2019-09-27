@@ -1,8 +1,7 @@
 import React, { Component } from "react"
 import { StaticQuery, graphql } from "gatsby"
 import {
-  FaFacebook,
-  
+ FaGithub,
   FaLinkedin,
 } from "react-icons/fa"
 import "./styles.css"
@@ -41,9 +40,13 @@ class Footer extends Component {
                           target="_blank"
                           rel="noopener noreferrer"
                         >
-                          {
+                          {/* {
                             item.link.includes('facebook')
                               ? <FaFacebook /> : null
+                          } */}
+                          {
+                            item.link.includes('github')
+                              ? <FaGithub /> : null
                           }
                           {/* {
                             item.link.includes('twitter')

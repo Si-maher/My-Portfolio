@@ -61,9 +61,9 @@ const NavBar = () => {
           <div className="navbar-links">
             <p
               className={
-                checkHome
-                  ? "navbar-company-name-white"
-                  : "navbar-company-name-black"
+                
+                   "navbar-company-name-white"
+                  
               }
             >
               {getNavBar.navLogo.firstName}  {getNavBar.navLogo.lastName}
@@ -84,10 +84,11 @@ const NavBar = () => {
                         }
                       >
                         {item.link}
+                       {console.log(item.link)}
                       </ScrollLink>
                     ) : (
                       <Link
-                        className={"navbar-link"}
+                        className={"navbar-link navbar-link-white"}
                         to={`/en/#${item.link === "home" ? "" : item.link}`}
                         activeClassName={"navbar-link-active"}
                       >

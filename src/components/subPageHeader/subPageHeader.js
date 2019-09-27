@@ -1,5 +1,5 @@
 import React from 'react';
-import defaultImg from '../../../images/bcg/homeBcg.jpeg'
+import defaultImg from '../../images/hero1.jpg'
 import './styles.css'
 const SubPageHeader = ({ img, children }) => {
     const backgroundStyle1 = {
@@ -15,3 +15,5 @@ const SubPageHeader = ({ img, children }) => {
 SubPageHeader.defaultProps = {
     img: defaultImg,
  }
+
+ export default SubPageHeader

@@ -19,6 +19,12 @@
 .btn-primary {
   color: white;
 }
+.small-button {
+  padding: 1.5rem 2.9rem;
+  font-size: 1rem;
+
+
+}
 
 .btn-secondary {
   background: black;

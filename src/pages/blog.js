@@ -4,6 +4,8 @@ import { graphql, useStaticQuery } from "gatsby"
 import BlogList from "../components/BlogList"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import SubPageHeader from '../components/subPageHeader/subPageHeader'
+import {Title2} from '../components/Title'
 
 const getPosts = graphql`
   query {
@@ -36,6 +38,10 @@ export default () => {
   return (
     <Layout>
       <SEO title="Blog posts" />
+      <SubPageHeader>
+      <Title2 text="Blog Posts" styleClass="title-h2-light"/>
+
+      </SubPageHeader>
       <BlogList posts={posts} />
     </Layout>
   )
